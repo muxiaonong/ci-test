@@ -10,7 +10,6 @@ class CiTestApplicationTests {
     @Autowired
     MyService myService;
 
-
     @Test
     public void testAdd() {
         int add = myService.add(2, 6);
